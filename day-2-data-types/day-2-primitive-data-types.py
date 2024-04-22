@@ -31,3 +31,13 @@ print(2 ** 3)
 # PEMDAS
 
 print(3 * (3 + 3) / 3 - 3)
+
+# Round
+print(round(2.666666, 2))
+print(8 // 3) # Flow division
+
+result = 4 / 2
+result /= 2
+print(result)
+
+print(6 + 4 / 2 - (1 * 2))
