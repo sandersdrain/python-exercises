@@ -5,8 +5,9 @@ def bill_calculator():
     people = int(input("Enter people count to split the bill: "))
 
     bill_split = (bill + tip) / people
-
+    cashback = (bill / 100) * 2
     print(f"The split bill between {people} person: {round(bill_split, 2)}")
+    print(f"Cashback: {round(cashback, 2)}")
     execute()
 
 
